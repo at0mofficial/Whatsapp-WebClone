@@ -5,7 +5,6 @@ import Link from "next/link";
 
 const Navbar = ({rightSidebar}:{rightSidebar?:boolean}) => {
   return (
-    <>
       <nav className="flex justify-between bg-[#202c33] h-[59px] py-2.5 px-4">
         <div className="flex items-center">
         <div className="h-10 w-10 relative mr-[15px]">
@@ -59,7 +58,6 @@ const Navbar = ({rightSidebar}:{rightSidebar?:boolean}) => {
           }
         </div>
       </nav>
-    </>
   );
 };
 

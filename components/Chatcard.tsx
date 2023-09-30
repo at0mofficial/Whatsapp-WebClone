@@ -3,7 +3,6 @@ import React from "react";
 
 const Chatcard = () => {
   return (
-    <>
       <div className="flex max-w-full py-2 px-3 bg-[#111b21]">
         <div className="shrink-0 h-[49px] w-[49px] relative mr-[15px]">
           <Image
@@ -23,7 +22,6 @@ const Chatcard = () => {
           </div>
         </div>
       </div>
-    </>
   );
 };
 

@@ -24,7 +24,6 @@ const Searchbar = ({ placeHolderText }: { placeHolderText: string }) => {
 
 
   return (
-    <>
       <div className="flex items-center bg-[#202c33] rounded-md w-full">
         <Image
           src="searchIcon.svg"
@@ -66,7 +65,6 @@ const Searchbar = ({ placeHolderText }: { placeHolderText: string }) => {
           onClick={handelBack}
         />
       </div>
-    </>
   );
 };
 

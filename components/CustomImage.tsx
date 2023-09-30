@@ -8,7 +8,6 @@ interface Props {
 
 const CustomImage = ({ imgUrl, className }: Props) => {
   return (
-    <>
       <div className={`${className} relative`}>
         <Image
         src={imgUrl}
@@ -17,7 +16,6 @@ const CustomImage = ({ imgUrl, className }: Props) => {
         className="rounded-full object-cover"
         />
       </div>
-    </>
   );
 };
 
