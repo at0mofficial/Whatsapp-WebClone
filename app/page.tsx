@@ -5,19 +5,15 @@ import Leftsidebar from '@/components/Leftsidebar'
 export default function Home() {
   return (
     <>
-    <div className=' bg-[#0c1317] h-screen p-[19px]'>
-    <main className='flex mx-auto max-w-[1600px]'>
+    <main className='flex h-[calc(100vh-38px)] mt-[19px] mx-auto max-w-[1600px] bg-[#111b21]'>
   
-    <div className='w-[45%]'>
+    <div className='basis-[30%] max-w-[30%]'>
     <Leftsidebar />
     </div>
-    <div className='w-[55%]'>
+    <div className='grow bg-[#202c33]'>
     <Chatwindow />
     </div>
     </main>
-    </div>
-    
-    
     </>
   )
 }
