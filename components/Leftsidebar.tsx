@@ -36,6 +36,22 @@ const Leftsidebar = () => {
       <Chatcard />
       <Chatcard />
       <Chatcard />
+      <Chatcard />
+      <Chatcard />
+      <Chatcard />
+      <Chatcard />
+      <Chatcard />
+      <Chatcard />
+      <Chatcard />
+      <Chatcard />
+      <Chatcard />
+      <Chatcard />
+      <Chatcard />
+      <Chatcard />
+      <Chatcard />
+      <Chatcard />
+      <Chatcard />
+      <Chatcard />
       
       </div>
 
