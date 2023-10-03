@@ -11,7 +11,7 @@ export default function Home() {
     <div className='basis-[30%] max-w-[30%]'>
     <Leftsidebar />
     </div>
-    <div className='grow bg-[#202c33]'>
+    <div className='grow bg-[#202c33] relative'>
     {/* <Chatwindow /> */}
     <GetWhatsapp />
     </div>
