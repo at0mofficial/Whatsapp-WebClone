@@ -1,6 +1,6 @@
-import Chatwindow from '@/components/Chatwindow'
 import GetWhatsapp from '@/components/GetWhatsapp'
 import Leftsidebar from '@/components/Leftsidebar'
+import Rightsidebar from '@/components/Rightsidebar'
 
 
 export default function Home() {
@@ -11,9 +11,9 @@ export default function Home() {
     <div className='basis-[30%] max-w-[30%]'>
     <Leftsidebar />
     </div>
-    <div className='grow bg-[#202c33] relative'>
-    {/* <Chatwindow /> */}
-    <GetWhatsapp />
+    <div className='flex grow bg-[#202c33] relative'>
+    <Rightsidebar />
+    {/* <GetWhatsapp /> */}
     </div>
     </main>
     </>
